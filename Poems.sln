@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdetoStackOverflow", "StackOverflow\OdetoStackOverflow.csproj", "{981CA4F1-965B-476D-8FC1-64CE34C3778E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeNumberProj", "PrimeNumberProj\PrimeNumberProj.csproj", "{22E546D8-EC2E-45FD-A01D-BE183E4CC730}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{981CA4F1-965B-476D-8FC1-64CE34C3778E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{981CA4F1-965B-476D-8FC1-64CE34C3778E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{981CA4F1-965B-476D-8FC1-64CE34C3778E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{981CA4F1-965B-476D-8FC1-64CE34C3778E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E546D8-EC2E-45FD-A01D-BE183E4CC730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E546D8-EC2E-45FD-A01D-BE183E4CC730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E546D8-EC2E-45FD-A01D-BE183E4CC730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E546D8-EC2E-45FD-A01D-BE183E4CC730}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {198C0BEE-F5E1-4B85-AD67-C66054A4601D}
+	EndGlobalSection
+EndGlobal
