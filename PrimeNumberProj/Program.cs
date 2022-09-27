@@ -14,6 +14,7 @@ static void AskForNumbersToCheck()
             Console.WriteLine("That is not a number.");
             continue;
         }
+        PrimeFinder PrimeFinder = new();
         List<BigInteger>? PrimeFactors = PrimeFinder.GetPrimeFactors(input);
         if (PrimeFactors is null) Console.WriteLine("That's a prime number!");
         else
@@ -29,9 +30,10 @@ static void AskForNumbersToCheck()
 }
 static void FindPrimes(bool showInConsole)
 {
+    PrimeFinder PrimeFinder = new();    
     if (showInConsole) PrimeFinder.FindPrimesAndOutput();
     else PrimeFinder.FindPrimes();
 
 }
-
+Console.Title = "Prime Finder";
 FindPrimes(true);
